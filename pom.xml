@@ -5,7 +5,7 @@
 
 	<groupId>de.arp</groupId>
 	<artifactId>arp-parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Arpablo</name>
@@ -37,9 +37,13 @@
 		<!-- Saxon -->
 		<saxon.version>9.7.0-8</saxon.version>
 
+		<!-- Feign -->
+		<feign.version>9.3.1</feign.version>
+
+		<!-- Swagger -->
+		<springfox.version>2.6.1</springfox.version>
+		
 		<!-- Webapp -->
-		<springfox.version>2.5.0</springfox.version>
-		<webjars-locator.version>0.30</webjars-locator.version>
 		<webjars-bootstrap.version>3.3.4</webjars-bootstrap.version>
 		<webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
 		<webjars-jquery.version>2.2.1</webjars-jquery.version>
@@ -97,6 +101,18 @@
 				<artifactId>springfox-swagger-ui</artifactId>
 				<version>${springfox.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>io.github.openfeign</groupId>
+				<artifactId>feign-jackson</artifactId>
+				<version>${feign.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.openfeign</groupId>
+				<artifactId>feign-ribbon</artifactId>
+				<version>${feign.version}</version>
+			</dependency>
+
 
 			<!-- Webjars -->
 			<dependency>
