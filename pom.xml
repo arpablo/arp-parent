@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.2.RELEASE</version>
+		<version>1.5.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
@@ -44,9 +44,9 @@
 		<springfox.version>2.6.1</springfox.version>
 
 		<!-- Webapp -->
-		<webjars-bootstrap.version>3.3.4</webjars-bootstrap.version>
-		<webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
-		<webjars-jquery.version>2.2.1</webjars-jquery.version>
+		<webjars-bootstrap.version>3.3.7-1</webjars-bootstrap.version>
+		<webjars-jquery-ui.version>1.12.1</webjars-jquery-ui.version>
+		<webjars-jquery.version>3.1.1-1</webjars-jquery.version>
 		<webjars-dropzone.version>4.3.0-2</webjars-dropzone.version>
 
 		<!-- Docker -->
