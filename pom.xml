@@ -29,7 +29,7 @@
 		<commons-compress.version>1.9</commons-compress.version>
 		<commons-lang.version>3.4</commons-lang.version>
 		<commons-io.version>2.4</commons-io.version>
-		
+
 		<!-- Google Guave -->
 		<guava.version>18.0</guava.version>
 
@@ -42,7 +42,7 @@
 
 		<!-- Swagger -->
 		<springfox.version>2.6.1</springfox.version>
-		
+
 		<!-- Webapp -->
 		<webjars-bootstrap.version>3.3.4</webjars-bootstrap.version>
 		<webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
@@ -56,6 +56,9 @@
 		<!-- Thymeleaf -->
 		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
 		<thymeleaf-layout-dialect.version>2.0.4</thymeleaf-layout-dialect.version>
+
+		<!-- Keycloak -->
+		<keycloak.version>2.5.1.Final</keycloak.version>
 	</properties>
 
 	<dependencyManagement>
@@ -89,7 +92,7 @@
 				<artifactId>guava</artifactId>
 				<version>${guava.version}</version>
 			</dependency>
-			
+
 			<!-- Swagger -->
 			<dependency>
 				<groupId>io.springfox</groupId>
@@ -148,6 +151,38 @@
 				<version>${saxon.version}</version>
 			</dependency>
 
+
+			<!-- Keycloak -->
+			<dependency>
+				<groupId>org.keycloak</groupId>
+				<artifactId>keycloak-tomcat8-adapter</artifactId>
+				<version>${keycloak.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.keycloak</groupId>
+				<artifactId>keycloak-tomcat7-adapter</artifactId>
+				<version>${keycloak.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.keycloak</groupId>
+				<artifactId>keycloak-jetty92-adapter</artifactId>
+				<version>${keycloak.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.keycloak</groupId>
+				<artifactId>keycloak-jetty91-adapter</artifactId>
+				<version>${keycloak.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.keycloak</groupId>
+				<artifactId>keycloak-undertow-adapter</artifactId>
+				<version>${keycloak.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.keycloak</groupId>
+				<artifactId>keycloak-spring-boot-adapter</artifactId>
+				<version>${keycloak.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
