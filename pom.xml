@@ -5,7 +5,7 @@
 
 	<groupId>de.arp</groupId>
 	<artifactId>arp-parent</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>pom</packaging>
 
 	<name>Arpablo</name>
@@ -29,6 +29,7 @@
 		<commons-compress.version>1.9</commons-compress.version>
 		<commons-lang.version>3.4</commons-lang.version>
 		<commons-io.version>2.4</commons-io.version>
+		<xml-resolver.version>1.2</xml-resolver.version>
 
 		<!-- Google Guave -->
 		<guava.version>18.0</guava.version>
@@ -85,7 +86,11 @@
 				<artifactId>commons-io</artifactId>
 				<version>${commons-io.version}</version>
 			</dependency>
-
+			<dependency>
+			    <groupId>xml-resolver</groupId>
+			    <artifactId>xml-resolver</artifactId>
+			    <version>${xml-resolver.version}</version>
+			</dependency>
 			<!-- Google Guave -->
 			<dependency>
 				<groupId>com.google.guava</groupId>
