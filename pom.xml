@@ -11,6 +11,13 @@
 	<name>Arpablo</name>
 	<description>Arpablo Application</description>
 
+	<developers>
+		<developer>
+			<name>Armin Pfarr</name>
+			<email>armin.pfarr@gmail.com</email>
+		</developer>
+	</developers>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
