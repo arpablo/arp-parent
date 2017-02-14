@@ -38,6 +38,9 @@
 		<commons-io.version>2.4</commons-io.version>
 		<xml-resolver.version>1.2</xml-resolver.version>
 
+		<!-- Apache Tika -->
+		<tika.version>1.14</tika.version>
+		
 		<!-- Google Guave -->
 		<guava.version>18.0</guava.version>
 
@@ -98,6 +101,19 @@
 			    <artifactId>xml-resolver</artifactId>
 			    <version>${xml-resolver.version}</version>
 			</dependency>
+			
+			<!-- Apache Tika -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-core</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parsers</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			
 			<!-- Google Guave -->
 			<dependency>
 				<groupId>com.google.guava</groupId>
