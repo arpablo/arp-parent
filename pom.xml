@@ -33,9 +33,9 @@
 
 		<!-- Apache Commons -->
 		<commons-codec.version>1.10</commons-codec.version>
-		<commons-compress.version>1.9</commons-compress.version>
-		<commons-lang.version>3.4</commons-lang.version>
-		<commons-io.version>2.4</commons-io.version>
+		<commons-compress.version>1.13</commons-compress.version>
+		<commons-lang.version>3.5</commons-lang.version>
+		<commons-io.version>2.5</commons-io.version>
 		<xml-resolver.version>1.2</xml-resolver.version>
 
 		<!-- Apache Tika -->
@@ -65,8 +65,8 @@
 		<docker.image-prefix>arp</docker.image-prefix>
 
 		<!-- Thymeleaf -->
-		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
-		<thymeleaf-layout-dialect.version>2.0.4</thymeleaf-layout-dialect.version>
+		<thymeleaf.version>3.0.3.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.1.2</thymeleaf-layout-dialect.version>
 
 		<!-- Keycloak -->
 		<keycloak.version>2.5.1.Final</keycloak.version>
