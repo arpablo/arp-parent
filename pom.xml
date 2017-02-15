@@ -31,6 +31,9 @@
 		<java.version>1.8</java.version>
 		<skip.tests>true</skip.tests>
 
+		<!-- Own stuff -->
+		<arp-utils.version>1.0.0-SNAPSHOT</arp-utils.version>
+		
 		<!-- Apache Commons -->
 		<commons-codec.version>1.10</commons-codec.version>
 		<commons-compress.version>1.13</commons-compress.version>
@@ -75,6 +78,13 @@
 	<dependencyManagement>
 		<dependencies>
 
+			<!-- Own stuff -->
+			<dependency>
+				<groupId>de.arp</groupId>
+				<artifactId>arp-utils</artifactId>
+				<version>${arp-utils.version}</version>
+			</dependency>
+			
 			<!-- Apache Commons -->
 			<dependency>
 				<groupId>commons-codec</groupId>
