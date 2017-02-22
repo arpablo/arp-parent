@@ -73,6 +73,9 @@
 
 		<!-- Keycloak -->
 		<keycloak.version>2.5.1.Final</keycloak.version>
+		
+		<!-- Flyway -->
+		<flyway.version>4.1.1</flyway.version>
 	</properties>
 
 	<dependencyManagement>
@@ -225,6 +228,13 @@
 				<groupId>org.keycloak</groupId>
 				<artifactId>keycloak-spring-boot-adapter</artifactId>
 				<version>${keycloak.version}</version>
+			</dependency>
+			
+			<!-- Flyway -->
+			<dependency>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-core</artifactId>
+				<version>${flyway.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
