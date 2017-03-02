@@ -50,7 +50,11 @@
 
 		<!-- Saxon -->
 		<saxon.version>9.7.0-8</saxon.version>
-
+		
+		<!-- Xalan/Xerces -->
+		<xalan.version>2.7.2</xalan.version>
+		<xerces.version>2.11.0.SP4-patch2</xerces.version>		
+		
 		<!-- Feign -->
 		<feign.version>9.3.1</feign.version>
 
@@ -62,7 +66,7 @@
 		<webjars-jquery-ui.version>1.12.1</webjars-jquery-ui.version>
 		<webjars-jquery.version>3.1.1-1</webjars-jquery.version>
 		<webjars-dropzone.version>4.3.0-2</webjars-dropzone.version>
-		<webjars-datatables.version>1.10.13</webjars-datatables.version>
+		<webjars-datatables.version>1.10.12</webjars-datatables.version>
 
 		<!-- Docker -->
 		<spotify.docker.version>0.4.13</spotify.docker.version>
@@ -203,6 +207,17 @@
 				<version>${saxon.version}</version>
 			</dependency>
 
+			<!-- Xalan/Xerces -->
+			<dependency>
+			    <groupId>xalan</groupId>
+			    <artifactId>xalan</artifactId>
+			    <version>${xalan.version}</version>
+			</dependency>		
+			<dependency>
+				<groupId>xerces</groupId>
+				<artifactId>xercesImpl</artifactId>
+				<version>${xerces.version}</version>
+			</dependency>
 
 			<!-- Keycloak -->
 			<dependency>
