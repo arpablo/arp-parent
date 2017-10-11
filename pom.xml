@@ -21,7 +21,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.2.RELEASE</version>
+		<version>1.5.7.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
@@ -32,7 +32,7 @@
 		<skip.tests>true</skip.tests>
 
 		<!-- Own stuff -->
-		<arp-utils.version>1.0.0-SNAPSHOT</arp-utils.version>
+<!-- 		<arp-utils.version>1.0.0-SNAPSHOT</arp-utils.version> -->
 		
 		<!-- Apache Commons -->
 		<commons-codec.version>1.10</commons-codec.version>
@@ -87,11 +87,11 @@
 		<dependencies>
 
 			<!-- Own stuff -->
-			<dependency>
-				<groupId>de.arp</groupId>
-				<artifactId>arp-utils</artifactId>
-				<version>${arp-utils.version}</version>
-			</dependency>
+<!-- 			<dependency> -->
+<!-- 				<groupId>de.arp</groupId> -->
+<!-- 				<artifactId>arp-utils</artifactId> -->
+<!-- 				<version>${arp-utils.version}</version> -->
+<!-- 			</dependency> -->
 			
 			<!-- Apache Commons -->
 			<dependency>
